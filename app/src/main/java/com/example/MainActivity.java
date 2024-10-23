@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_linear); // 修改为相应的布局文件
+        setContentView(R.layout.activity_main_grid); 
 
         Button button = findViewById(R.id.button);
         Switch switch1 = findViewById(R.id.switch1);
